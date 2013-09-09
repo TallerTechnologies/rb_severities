@@ -12,6 +12,6 @@ setup(
     packages=["severities"],
     entry_points={
         'reviewboard.extensions':
-            '%s = severities.extension:PriorityExtension' % PACKAGE,
+            '%s = severities.extension:SeverityExtension' % PACKAGE,
     },
 )
